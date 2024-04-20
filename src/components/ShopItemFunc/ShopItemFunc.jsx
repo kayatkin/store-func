@@ -1,6 +1,6 @@
-export const ShopItemFunc = (props) => {
+export const ShopItemFunc = ({info}) => {
 
-    const { brand, title, description, descriptionFull, price, currency } = props.info;
+    const { brand, title, description, descriptionFull, price, currency } = info;
 
     return (
         <div className="main-content">
